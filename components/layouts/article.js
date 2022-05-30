@@ -14,13 +14,12 @@ const Layout = ({children, title}) => (
     >
         <> 
             {title && ( <Head>
-                <title> {title} = Takuya Matsuyama</title>
+                <title> {title} = NAME NAME</title>
             </Head>)}
             {children}
             <GridItemStyle />
         </>
     </motion.article>
-
 )
 
 export default Layout
