@@ -12,7 +12,7 @@ export const JetSpinner = () => (
         />
 )
 
-export const JetContainer = forwardRef(function ({children}, ref) {
+const JetContainer = forwardRef(({children}, ref) => (
     <Box
         ref={ref}
         className="jet"
@@ -25,7 +25,9 @@ export const JetContainer = forwardRef(function ({children}, ref) {
     >
         {children}
     </Box>
-} )
+) )
+
+JetContainer.displayName = "JetContainer"
 
 const Loader = () => {
     return (
@@ -35,4 +37,4 @@ const Loader = () => {
     )
 }
 
-export default Loader
+export default {Loader, JetContainer}
