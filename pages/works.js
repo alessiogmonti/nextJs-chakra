@@ -3,14 +3,14 @@ import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item"
 
 import thumbInkdrop from "../public/images/luna1.png"
-import Head from "next/head";
+// import Head from "next/head";
 
 const Works = () => {
     return(
         <Container>
-            <heading as="h3" fontSize={20} mb={4}>
+            <Heading as="h3" fontSize={20} mb={4}>
                 Works
-            </heading>
+            </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6} >
                 <Section>
                     <WorkGridItem id="proj1" title="Proj1" thumbnail={thumbInkdrop}>

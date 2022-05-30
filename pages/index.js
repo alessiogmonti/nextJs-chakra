@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import { Container, Image, Box, Heading, useColorModeValue, Link, Icon, List, ListItem, Button, SimpleGrid } from '@chakra-ui/react'
-import { NextURL } from 'next/dist/server/web/next-url'
+// import { NextURL } from 'next/dist/server/web/next-url'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -26,7 +26,7 @@ const Page = () => {
         <Layout>
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200' )} p={3} mb={6} align="center">
-                    Hello, I'm a freelance vibe manager based in Milan, Italy.
+                    Hello, I&apos;m a freelance vibe manager based in Milan, Italy.
                 </Box>
 
                 <Box display={{ md: 'flex' }}>
@@ -45,12 +45,12 @@ const Page = () => {
                         Work
                     </Heading>
                     <Paragraph> Design is all about creating things that last and work well.
-                        To do this, they need to be prototyped over and over again until they're perfect.
+                        To do this, they need to be prototyped over and over again until they&apos;re perfect.
                         The more we make things, the better we get at making them. This is a process that takes
                         time and resources. The more experienced the designer, the less time and resources it takes, and
-                        the more future-proof the final product. We can't account for every possibility, but the craft of 
+                        the more future-proof the final product. We can&apos;t account for every possibility, but the craft of 
                         a designer is to create an extensible, flexible and modular product that can be adapted to multiple
-                        use cases. Here's an example {""}
+                        use cases. Here&apos;s an example {""}
                         <NextLink href = "/works/project">
                             <Link> Project </Link>
                         </NextLink>

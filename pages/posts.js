@@ -33,3 +33,5 @@ const Posts = () => (
         </Container>
     </Layout>
 )
+
+export default Posts
